@@ -1,4 +1,3 @@
-Sure, here is a README for your GitHub repository, both in English and Russian.
 
 ### README.md (English)
 
@@ -17,7 +16,7 @@ This project provides a Python function to generate random user-agent strings fo
 To use this project, simply clone the repository and import the function into your Python script.
 
 ```bash
-git clone https://github.com/flaming-chameleon/random-user-agents.git
+git clone https://github.com/Aero25x/random-user-agents.git
 ```
 
 ## Usage
@@ -61,7 +60,7 @@ This project is licensed under the MIT License.
 Чтобы использовать этот проект, просто клонируйте репозиторий и импортируйте функцию в свой скрипт на Python.
 
 ```bash
-git clone https://github.com/flaming-chameleon/random-user-agents.git
+git clone https://github.com/Aero25x/random-user-agents.git
 ```
 
 ## Использование
