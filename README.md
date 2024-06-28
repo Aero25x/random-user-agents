@@ -1,3 +1,4 @@
+[![Join our Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/hidden_coding)
 
 ### README.md (English)
 
@@ -82,6 +83,8 @@ print(generate_random_user_agent(device_type='ios', browser_type='firefox'))
 Приветствуются любые вклады! Пожалуйста, не стесняйтесь отправлять запросы на добавление функций или открывать вопросы.
 
 ### Контакты
+
+[![Join our Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/hidden_coding)
 
 Для поддержки или вопросов, свяжитесь со мной в Telegram: [@hidden_coding](https://t.me/hidden_coding)
 
