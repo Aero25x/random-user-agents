@@ -1,5 +1,8 @@
 import random
 
+# Created by Aero25x
+# https://github.com/Aero25x/random-user-agents.git
+
 def generate_random_user_agent(device_type='android', browser_type='chrome'):
     chrome_versions = list(range(110, 127))
     firefox_versions = list(range(90, 100))  # Last 10 versions of Firefox
