@@ -4,16 +4,21 @@ import random
 # https://github.com/Aero25x/random-user-agents.git
 
 def generate_random_user_agent(device_type='android', browser_type='chrome'):
-    chrome_versions = list(range(110, 127))
-    firefox_versions = list(range(90, 100))  # Last 10 versions of Firefox
+    if not device_type:
+        device_type = random.choice(['android', 'ios', 'windows', 'ubuntu'])
+    
+    if not browser_type:
+        browser_type = random.choice(['chrome', 'firefox'])
 
     if browser_type == 'chrome':
+        chrome_versions = list(range(110, 127))
         major_version = random.choice(chrome_versions)
         minor_version = random.randint(0, 9)
         build_version = random.randint(1000, 9999)
         patch_version = random.randint(0, 99)
         browser_version = f"{major_version}.{minor_version}.{build_version}.{patch_version}"
     elif browser_type == 'firefox':
+        firefox_versions = list(range(90, 100))  # Last 10 versions of Firefox
         browser_version = random.choice(firefox_versions)
 
     if device_type == 'android':
@@ -64,6 +69,8 @@ def generate_random_user_agent(device_type='android', browser_type='chrome'):
 
     return None
 
+
 # Example usage
-for _ in range(5):
-    print(generate_random_user_agent())
+if __name__ == "__main__":
+    for _ in range(5):
+        print(generate_random_user_agent())
