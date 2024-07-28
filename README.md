@@ -3,13 +3,11 @@
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/aero25x)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@flaming_chameleon)
 
-
-
 ### README.md (English)
 
 # Random User Agents
 
-This project provides a Python function to generate random user-agent strings for different devices and browsers. The function can be used for web scraping, automated testing, or any other scenario where you need to simulate different user agents.
+This project provides functions in Python, Rust, JavaScript, and TypeScript to generate random user-agent strings for different devices and browsers. These functions can be used for web scraping, automated testing, or any other scenario where you need to simulate different user agents.
 
 ## Features
 
@@ -19,7 +17,7 @@ This project provides a Python function to generate random user-agent strings fo
 
 ## Installation
 
-To use this project, simply clone the repository and import the function into your Python script.
+To use this project, simply clone the repository and import the function into your script.
 
 ```bash
 git clone https://github.com/Aero25x/random-user-agents.git
@@ -27,7 +25,7 @@ git clone https://github.com/Aero25x/random-user-agents.git
 
 ## Usage
 
-Here is an example of how to use the `generate_random_user_agent` function:
+### Python
 
 ```python
 from random_user_agents import generate_random_user_agent
@@ -39,6 +37,57 @@ print(generate_random_user_agent(device_type='android', browser_type='chrome'))
 print(generate_random_user_agent(device_type='ios', browser_type='firefox'))
 ```
 
+### Rust
+
+```rust
+use rand::Rng;
+use rand::seq::SliceRandom;
+
+fn generate_random_user_agent(device_type: Option<&str>, browser_type: Option<&str>) -> String {
+    // Function implementation here
+}
+
+fn main() {
+    for _ in 0..5 {
+        println!("{}", generate_random_user_agent(None, None));
+    }
+}
+```
+
+### JavaScript
+
+```javascript
+function getRandomElement(arr) {
+    return arr[Math.floor(Math.random() * arr.length)];
+}
+
+function generateRandomUserAgent(deviceType, browserType) {
+    // Function implementation here
+}
+
+// Example usage
+for (let i = 0; i < 5; i++) {
+    console.log(generateRandomUserAgent());
+}
+```
+
+### TypeScript
+
+```typescript
+function getRandomElement<T>(arr: T[]): T {
+    return arr[Math.floor(Math.random() * arr.length)];
+}
+
+function generateRandomUserAgent(deviceType?: string, browserType?: string): string {
+    // Function implementation here
+}
+
+// Example usage
+for (let i = 0; i < 5; i++) {
+    console.log(generateRandomUserAgent());
+}
+```
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue.
@@ -47,13 +96,11 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 
 This project is licensed under the MIT License.
 
-
 ### README.md (Russian)
-
 
 # Случайные Пользовательские Агенты
 
-Этот проект предоставляет функцию на Python для генерации случайных строк user-agent для различных устройств и браузеров. Функция может использоваться для веб-скрапинга, автоматического тестирования или в любых других сценариях, где необходимо имитировать различные пользовательские агенты.
+Этот проект предоставляет функции на Python, Rust, JavaScript и TypeScript для генерации случайных строк user-agent для различных устройств и браузеров. Эти функции могут использоваться для веб-скрапинга, автоматического тестирования или в любых других сценариях, где необходимо имитировать различные пользовательские агенты.
 
 ## Возможности
 
@@ -63,7 +110,7 @@ This project is licensed under the MIT License.
 
 ## Установка
 
-Чтобы использовать этот проект, просто клонируйте репозиторий и импортируйте функцию в свой скрипт на Python.
+Чтобы использовать этот проект, просто клонируйте репозиторий и импортируйте функцию в свой скрипт.
 
 ```bash
 git clone https://github.com/Aero25x/random-user-agents.git
@@ -71,7 +118,7 @@ git clone https://github.com/Aero25x/random-user-agents.git
 
 ## Использование
 
-Пример использования функции `generate_random_user_agent`:
+### Python
 
 ```python
 from random_user_agents import generate_random_user_agent
@@ -81,6 +128,57 @@ print(generate_random_user_agent(device_type='android', browser_type='chrome'))
 
 # Генерация случайного user-agent для устройства iOS с использованием Firefox
 print(generate_random_user_agent(device_type='ios', browser_type='firefox'))
+```
+
+### Rust
+
+```rust
+use rand::Rng;
+use rand::seq::SliceRandom;
+
+fn generate_random_user_agent(device_type: Option<&str>, browser_type: Option<&str>) -> String {
+    // Function implementation here
+}
+
+fn main() {
+    for _ in 0..5 {
+        println!("{}", generate_random_user_agent(None, None));
+    }
+}
+```
+
+### JavaScript
+
+```javascript
+function getRandomElement(arr) {
+    return arr[Math.floor(Math.random() * arr.length)];
+}
+
+function generateRandomUserAgent(deviceType, browserType) {
+    // Function implementation here
+}
+
+// Пример использования
+for (let i = 0; i < 5; i++) {
+    console.log(generateRandomUserAgent());
+}
+```
+
+### TypeScript
+
+```typescript
+function getRandomElement<T>(arr: T[]): T {
+    return arr[Math.floor(Math.random() * arr.length)];
+}
+
+function generateRandomUserAgent(deviceType?: string, browserType?: string): string {
+    // Function implementation here
+}
+
+// Пример использования
+for (let i = 0; i < 5; i++) {
+    console.log(generateRandomUserAgent());
+}
 ```
 
 ## Вклад
