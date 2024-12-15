@@ -3,7 +3,7 @@ import random
 # Created by Aero25x
 # https://github.com/Aero25x/random-user-agents.git
 
-def generate_random_user_agent(device_type='android', browser_type='chrome'):
+def generate_random_user_agent(device_type='android', browser_type='chrome', chrome_versions = [125, 131], firefox_versions = [120, 135]):
     if not device_type:
         device_type = random.choice(['android', 'ios', 'windows', 'ubuntu'])
     
@@ -11,14 +11,14 @@ def generate_random_user_agent(device_type='android', browser_type='chrome'):
         browser_type = random.choice(['chrome', 'firefox'])
 
     if browser_type == 'chrome':
-        chrome_versions = list(range(110, 127))
+        chrome_versions = list(range(chrome_versions[0], chrome_versions[1]))
         major_version = random.choice(chrome_versions)
         minor_version = random.randint(0, 9)
         build_version = random.randint(1000, 9999)
         patch_version = random.randint(0, 99)
         browser_version = f"{major_version}.{minor_version}.{build_version}.{patch_version}"
     elif browser_type == 'firefox':
-        firefox_versions = list(range(90, 100))  # Last 10 versions of Firefox
+        firefox_versions = list(range(firefox_versions[0], firefox_versions[1]))  # Last 10 versions of Firefox
         browser_version = random.choice(firefox_versions)
 
     if device_type == 'android':
