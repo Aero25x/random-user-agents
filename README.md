@@ -11,6 +11,10 @@
 
 This project provides functions in Python, Rust, JavaScript, and TypeScript to generate random user-agent strings for different devices and browsers. These functions can be used for web scraping, automated testing, or any other scenario where you need to simulate different user agents.
 
+
+[Generate user agents you could here](https://multitools.ovh/random-user-agent-generator/)
+
+
 ## Features
 
 - Generate random user-agent strings for Android, iOS, Windows, and Ubuntu devices.
@@ -57,6 +61,8 @@ fn main() {
 ```
 
 ### JavaScript
+
+[Similar JS code is used here](https://multitools.ovh/random-user-agent-generator/)
 
 ```javascript
 function getRandomElement(arr) {
