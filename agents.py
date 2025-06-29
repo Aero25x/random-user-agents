@@ -3,10 +3,10 @@ import random
 # Created by Aero25x
 # https://github.com/Aero25x/random-user-agents.git
 
-def generate_random_user_agent(device_type='android', browser_type='chrome', chrome_versions = [125, 131], firefox_versions = [120, 135]):
+def generate_random_user_agent(device_type, browser_type, chrome_versions = [125, 138], firefox_versions = [120, 135]):
     if not device_type:
         device_type = random.choice(['android', 'ios', 'windows', 'ubuntu'])
-    
+
     if not browser_type:
         browser_type = random.choice(['chrome', 'firefox'])
 
@@ -22,7 +22,7 @@ def generate_random_user_agent(device_type='android', browser_type='chrome', chr
         browser_version = random.choice(firefox_versions)
 
     if device_type == 'android':
-        android_versions = ['10.0', '11.0', '12.0', '13.0']
+        android_versions = ['10.0', '11.0', '12.0', '13.0', '14.0', '15.0', '16.0']
         android_device = random.choice([
             'SM-G960F', 'Pixel 5', 'SM-A505F', 'Pixel 4a', 'Pixel 6 Pro', 'SM-N975F',
             'SM-G973F', 'Pixel 3', 'SM-G980F', 'Pixel 5a', 'SM-G998B', 'Pixel 4',
@@ -74,3 +74,4 @@ def generate_random_user_agent(device_type='android', browser_type='chrome', chr
 if __name__ == "__main__":
     for _ in range(5):
         print(generate_random_user_agent())
+
