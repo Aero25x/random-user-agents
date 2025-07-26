@@ -79,7 +79,7 @@ for (let i = 0; i < 5; i++) {
 }
 ```
 
-### TypeScript
+### TypeScript (TS)
 
 ```typescript
 function getRandomElement<T>(arr: T[]): T {
@@ -95,6 +95,26 @@ for (let i = 0; i < 5; i++) {
     console.log(generateRandomUserAgent());
 }
 ```
+
+### GoLang (GO)
+```go
+// Generate with defaults (random device and browser)
+userAgent := GenerateRandomUserAgent(nil, nil, nil, nil)
+
+// Generate specific device type
+deviceType := "android"
+userAgent := GenerateRandomUserAgent(&deviceType, nil, nil, nil)
+
+// Generate specific browser
+browserType := "chrome"
+userAgent := GenerateRandomUserAgent(nil, &browserType, nil, nil)
+
+// Custom version ranges
+chromeVersions := []int{120, 130}
+firefoxVersions := []int{115, 125}
+userAgent := GenerateRandomUserAgent(nil, nil, chromeVersions, firefoxVersions)
+```
+
 
 ## Contributing
 
