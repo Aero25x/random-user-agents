@@ -37,7 +37,7 @@
 ### Python (pip)
 
 ```bash
-git clonse https://github.com/Aero25x/random-user-agents.git
+git clone https://github.com/Aero25x/random-user-agents.git
 ```
 
 ```python
@@ -55,7 +55,7 @@ ios_safari = generate_random_user_agent(device_type='ios', browser_type='safari'
 ### JavaScript / Node.js (npm)
 
 ```bash
-git clonse https://github.com/Aero25x/random-user-agents.git
+git clone https://github.com/Aero25x/random-user-agents.git
 ```
 
 ```javascript
@@ -74,7 +74,7 @@ console.log(generateRandomUserAgent('linux', 'firefox'));
 ### TypeScript
 
 ```bash
-git clonse https://github.com/Aero25x/random-user-agents.git
+git clone https://github.com/Aero25x/random-user-agents.git
 ```
 
 ```typescript
@@ -87,7 +87,7 @@ console.log(userAgent);
 ### Rust (Cargo)
 
 ```bash
-git clonse https://github.com/Aero25x/random-user-agents.git
+git clone https://github.com/Aero25x/random-user-agents.git
 ```
 
 ```rust
