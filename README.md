@@ -1,12 +1,7 @@
 # Random User Agent Generator - Python, JavaScript, Rust, TypeScript, Go
 
-[![Join our Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/hidden_coding)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aero25x)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/aero25x)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@flaming_chameleon)
-[![Reddit](https://img.shields.io/badge/Reddit-FF3A00?style=for-the-badge&logo=reddit&logoColor=white)](https://www.reddit.com/r/HiddenCode/)
-[![GitHub Stars](https://img.shields.io/github/stars/Aero25x/random-user-agents?style=for-the-badge)](https://github.com/Aero25x/random-user-agents/stargazers)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+<img width="1402" height="1122" alt="image" src="https://github.com/user-attachments/assets/315318c4-61ea-4c52-ab46-50802e82cba2" />
+
 
 > **Generate realistic random user agents for web scraping, browser automation, and testing. Supports Chrome, Firefox, Safari on Android, iOS, Windows, macOS, Linux, and Ubuntu devices.**
 
@@ -327,13 +322,6 @@ Free for personal and commercial use, modification, and distribution.
 If this project helped you, please consider giving it a ⭐️ on GitHub!
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Aero25x/random-user-agents&type=Date)](https://star-history.com/#Aero25x/random-user-agents&Date)
-
-## 📞 Support & Contact
-
-- 💬 **Telegram Community**: [@hidden_coding](https://t.me/hidden_coding)
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/Aero25x/random-user-agents/issues)
-- 💡 **Feature Requests**: [GitHub Discussions](https://github.com/Aero25x/random-user-agents/discussions)
-- 📧 **Email**: Contact via GitHub profile
 
 ## 🔗 Related Projects
 
